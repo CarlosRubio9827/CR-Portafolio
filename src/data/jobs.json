@@ -1,0 +1,69 @@
+{
+  "experience": [
+    {
+      "position": "Software Engineer",
+      "company": "Indra Company",
+      "startDate": "07/2020",
+      "endDate": "Present",
+      "responsibilities": [
+        "Compilation of requirements.",
+        "Design and execution of scenarios and test cases.",
+        "Identify the scope of the test.",
+        "Prepare and evaluate the test plan and test strategy for the project in charge.",
+        "Analyze test results and track them."
+      ],
+      "img": {
+        "src": "https://i.ibb.co/9nNcdtF/minsait-2.png",
+        "alt": "logo-minsait"
+      }
+    },
+    {
+      "position": "Web Developer",
+      "company": "Valhalla Series",
+      "startDate": "01/2021",
+      "endDate": "07/2021",
+      "responsibilities": [
+        "Requirements gathering.",
+        "MER design for database.",
+        "Design and implementation of Web Application using HTML, CSS (Sass) and Javascript (ReactJs) for the front; Python (Flask Framework) and MySql were used for the backend."
+      ],
+      "img": {
+        "src": "https://i.ibb.co/RvmQ98J/Valhalla-logo-res.png",
+        "alt": "logo-ValhallaSeries"
+      }
+    },
+    {
+      "position": "Web Developer",
+      "company": "Team Piedra del Canadá",
+      "startDate": "06/2019",
+      "endDate": "11/2019",
+      "responsibilities": [
+        "Requirements gathering.",
+        "MER design for database.",
+        "Design and implementation of Web Application using HTML, CSS (Bootstrap) and Javascript (jQuery) for the front; PHP 7 and MySql were used for the backend."
+      ],
+      "img": {
+        "src": "https://i.ibb.co/QDQGkpS/piedra-canada.png",
+        "alt": "logo-piedra-canada"
+      }
+    },
+    {
+      "position": "Quality Analyst",
+      "company": "Q-Vision Technologies",
+      "startDate": "06/2020",
+      "endDate": "07/2021",
+      "responsibilities": [
+        "Requirements gathering.",
+        "Design and execution of scenarios and test cases.",
+        "Identify test scope.",
+        "Prepare and evaluate the test plan and test strategy for the project in charge.",
+        "Analyze test results.",
+        "Management of TestLink and Mantis applications for monitoring incident reports."
+      ],
+      "img": {
+        "src": "https://i.ibb.co/wMsjfQW/qvision.png",
+        "alt": "logo-qvision"
+      }
+    }
+  ]
+}

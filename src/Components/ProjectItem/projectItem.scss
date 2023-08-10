@@ -1,0 +1,43 @@
+.projectsItem{
+  background-color: #27f684fe;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  // background-image: url('https://i.ibb.co/sFHxMLk/shoes.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  &-name{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  &-description{
+    font-size: 1rem;
+    color: #ffffffb9;
+    line-height: 15px;
+  }
+  &-ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    & li{
+      color: #ffffff76;
+      font-size: 0.8rem;
+    }
+  }
+  &-links{
+    display: flex;
+    gap: 10px;
+    &-item{
+      color: #fff;
+      text-decoration: none;
+      &-img{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

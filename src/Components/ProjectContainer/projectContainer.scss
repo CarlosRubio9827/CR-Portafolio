@@ -1,0 +1,29 @@
+#projectContainer {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #252626;
+  padding: 20px;
+  & .projectContainer-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    // color: #fff;
+    color: #768e81;
+    & span {
+      color: #fff;
+      //   color: #768e81;
+      letter-spacing: 0.1px;
+      font-size: 2.2rem;
+    }
+  }
+  .projects{
+      width: 100%;
+      min-height: 70vh;
+      // background-color: red;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      // padding: 10px;
+  }
+}
+

@@ -1,0 +1,60 @@
+.descriptionJob {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: none;
+  gap: 10px;
+  transition: 1s;
+
+  &.x {
+    display: flex;
+    transition: 1s;
+  }
+  &-pos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+
+    &-dec {
+      color: #fff;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-right: 10px;
+      width: 50%;
+      white-space: pre-wrap;
+    }
+    &-img {
+      height: 50px;
+    //   width: 50px;
+      margin: 0 auto;
+    }
+  }
+
+  &-date {
+    font-size: 1rem;
+    color: #768e81;
+    margin-bottom: 10px;
+  }
+
+  &-resp {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &-li {
+      position: relative;
+      font-size: 1.6rem;
+      color: #fff;
+      font-weight: 300;
+      padding-left: 20px;
+      &::after {
+        content: "▹";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        color: var(--green);
+      }
+    }
+  }
+}
