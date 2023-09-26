@@ -1,42 +1,60 @@
 #contact {
   height: 100vh;
-  background-color: #252626;
+  // height: 100%;
+  background-color: #35403a;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  //   padding: 3rem 0;
+  padding: 10%;
+  & .contact-title {
+    // margin: 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    // color: #fff;
+    color: #768e81;
+    & span {
+      color: #fff;
+      //   color: #768e81;
+      letter-spacing: 0.1px;
+      font-size: 2.2rem;
+    }
+  }
 }
 .contact-me {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  height: 55%;
+  // height: 55%;
+  gap: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  width: 80%;
-  padding-top: 4.5rem;
   &-message {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     text-align: center;
   }
   &-desc {
     color: #fff;
-    text-align: justify;
-    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    // text-wrap: balance;
+    font-size: 1.6rem;
   }
   &-container {
     padding: 10px;
     border: 2px solid #35403a;
     // background-color: red;
     border-radius: 10px;
-    &-a{
+    &-a {
       text-decoration: none;
       color: #fff;
-      font-size: 1rem;
+      font-size: 1.6rem;
+      padding: 10px 20px;
+      background-color: #252626;
+      border-radius: 5px;
     }
     &-img {
       width: 50px;
@@ -49,9 +67,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   height: 25%;
   padding: 2.5rem 0;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  gap: 10px;
   & p {
     font-size: 1.5rem;
     text-align: center;
@@ -78,5 +99,72 @@
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #contact {
+    & .contact-title {
+      // margin: 20px;
+      font-size: 3rem;
+      & span {
+        letter-spacing: 0.1px;
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .contact-me {
+    gap: 90px;
+
+    &-message {
+      font-size: 4.4rem;
+    }
+    &-desc {
+      line-height: 3.6rem;
+      // text-wrap: balance;
+      font-size: 2.6rem;
+    }
+    &-container {
+      &-a {
+        font-size: 3.6rem;
+        padding: 12px 25px;
+      }
+      &-img {
+        width: 70px;
+        height: 70px;
+        color: #fff;
+      }
+    }
+  }
+  .footer {
+    // height: 10%;
+    & p {
+      font-size: 2.5rem;
+    }
+    &-separate {
+      width: 50vh;
+      height: 1px;
+      background-color: #fff;
+    }
+    &-ul {
+      &-li {
+        &-a {
+          &-img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #contact{
+    padding: 20px;
+    & .contact-me {
+      gap: 50px;
+  }
   }
 }

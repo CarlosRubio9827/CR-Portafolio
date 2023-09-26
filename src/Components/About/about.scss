@@ -7,8 +7,9 @@
   padding: 10% 10%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-//   border-bottom: 1px solid red;
+  justify-content: space-evenly;
+  height: 100vh;
+  //   border-bottom: 1px solid red;
 
   & h2 {
     margin-bottom: 20px;
@@ -74,14 +75,58 @@
       display: flex;
       flex-wrap: nowrap;
       overflow-x: auto;
-
+      &::-webkit-scrollbar {
+        height: 12px; /* Altura de la barra de desplazamiento */
+        background-color: #ffffff; /* Color de fondo de la barra de desplazamiento */
+        border-radius: 6px; /* Radio de borde del control deslizante */
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: #768e81; /* Color del control deslizante de la barra de desplazamiento */
+        border-radius: 6px; /* Radio de borde del control deslizante */
+      }
+      // &::-webkit-scrollbar-track {
+      //   background-color: #f1f1f1; /* Color de fondo de la pista de la barra de desplazamiento */
+      // }
       .card {
         flex: 0 0 auto;
         padding: 20px;
         &-img {
-        //   width: 80px;
+          //   width: 80px;
           height: 80px;
         }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+   
+    & h2 {
+      font-size: 3rem;
+      & span {
+        
+        letter-spacing: 0.1rem;
+        font-size: 4rem;
+      }
+    }
+    &-content {
+    
+      &-text {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+       
+        &-to {
+          font-size: 2rem;
+         
+        }
+      }
+    }
+    &-skills {
+      &-title {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+        
       }
     }
   }

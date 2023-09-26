@@ -12,12 +12,12 @@ const ProjectItem = ({ infoProject }) => {
     window.open(page, "_blank", "noreferrer");
     // window.location.href = page;
   };
-
+   
 
 
   return (
     <div className="projectsItem" style={{ 
-        backgroundImage: `url(${imgMobile})` 
+        // backgroundImage: `url(${imgMobile})` 
     }}>
       <h2 className="projectsItem-name">{name}</h2>
       <p className="projectsItem-description">{description}</p>

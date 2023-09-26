@@ -1,8 +1,12 @@
 #experience {
   width: 100%;
-  min-height: 85vh;
+  min-height: 100vh;
   background-color: #35403a;
-  padding: 20px;
+  padding: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   & h2 {
     margin-bottom: 20px;
     font-weight: 700;
@@ -30,23 +34,32 @@
     overflow-x: auto;
     padding-bottom: 5px;
     position: relative;
-    z-index: 2;
-    
+    // z-index: 2;
+
     // -webkit-font-smoothing: antialiased;
     &::-webkit-scrollbar {
-      width: 15px;
+      height: 12px; /* Altura de la barra de desplazamiento */
+      background-color: #ffffff; /* Color de fondo de la barra de desplazamiento */
+      border-radius: 6px; /* Radio de borde del control deslizante */
     }
     &::-webkit-scrollbar-thumb {
-      background-color: #252626;
-      // border: 1px solid #252626;
-      border-radius: 10px;
+      background-color: #252626; /* Color del control deslizante de la barra de desplazamiento */
+      border-radius: 6px; /* Radio de borde del control deslizante */
     }
-    &::-webkit-scrollbar-track {
-      background: #35403a;
-    }
-    &::before{
+    // &::-webkit-scrollbar {
+    //   // width: 15px;
+    // }
+    // &::-webkit-scrollbar-thumb {
+    //   background-color: #252626;
+    //   // border: 1px solid #252626;
+    //   border-radius: 10px;
+    // }
+    // &::-webkit-scrollbar-track {
+    //   background: #35403a;
+    // }
+    &::before {
       position: absolute;
-      width: 266%;
+      // width: 266%;
       height: 2px;
       content: "";
       bottom: 5px;
@@ -86,4 +99,47 @@
       }
     }
   }
+}
+
+@media screen and (min-width: 768px) {
+  #experience {
+   
+    justify-content: space-evenly;
+    & h2 {
+      font-size: 3rem;
+      & span {
+        letter-spacing: 0.1px;
+        font-size: 4rem;
+      }
+    }
+  }
+
+  
+.experience-content {
+  flex-direction: row;
+  &-jobs{
+    flex-direction: column;
+    justify-content: center;
+    min-width: 20rem;
+    gap: 50px;
+    &::before {
+      position: absolute;
+      // width: 266%;
+      height: 70%;
+      width: 2px;
+      content: "";
+      top: 15%;
+      z-index: 1;
+      background-color: #252626;
+    }
+    &-title {
+      text-align: left;
+      font-size: 2rem;
+      &.x {
+        border-left: 2px solid #fff;
+        border-bottom: 0px;
+      }
+    }
+  }
+}
 }

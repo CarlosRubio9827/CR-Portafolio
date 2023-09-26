@@ -2,6 +2,8 @@ import React from "react";
 import "./about.scss";
 import { Link } from "react-router-dom";
 
+import technologiesJson from "../../data/technologies.json";
+
 const About = () => {
   const links = {
     piedraCanada: "https://piedradelcanadadtr.com",
@@ -10,48 +12,8 @@ const About = () => {
     minsait: "https://www.minsait.com/en/",
   };
 
-  const technologies = [
-    {
-      src: "https://i.ibb.co/kKw8wC6/Quality-Assurance-1-2048x944.png",
-      alt: "Quality Assurance",
-    },
-    {
-      src: "https://i.ibb.co/NnRmsJC/HTML5-logo-and-wordmark-svg.png",
-      alt: "HTML5 Logo",
-    },
-    {
-      src: "https://i.ibb.co/3d8FTZJ/CSS3-logo-and-wordmark-svg.png",
-      alt: "CSS3 Logo",
-    },
-    {
-      src: "https://i.ibb.co/FBNCpLP/800px-Sass-Logo-Color-svg.png",
-      alt: "Sass Logo",
-    },
-    {
-      src: "https://i.ibb.co/g6XP5c2/Java-Script-logo.png",
-      alt: "JavaScript Logo",
-    },
-    {
-      src: "https://i.ibb.co/3Ryc9N7/1631110818-logo-react-js.png",
-      alt: "React.js Logo",
-    },
-    {
-      src: "https://i.ibb.co/9gRwTph/1200px-Node-js-logo-svg.png",
-      alt: "Node.js Logo",
-    },
-    {
-      src: "https://i.ibb.co/TYMspvH/git.png",
-      alt: "Git Logo",
-    },
-    {
-      src: "https://i.ibb.co/QMwd8h0/kisspng-microsoft-sql.jpg",
-      alt: "Microsoft SQL",
-    },
-    {
-      src: "https://i.ibb.co/syr9tPS/cypress-logo-circle-dark.png",
-      alt: "Cypress Logo",
-    },
-  ];
+  const { technologies } = technologiesJson;
+
   const openNewTab = (page) => {
     window.open(page, "_blank", "noreferrer");
     // window.location.href = page;
@@ -63,7 +25,7 @@ const About = () => {
       </h2>
       <div className="about-content">
         <p className="about-content-text">
-          Hello, I'm Carlos Alberto Rubio Gallego, and I'm passionate about
+         I'm passionate about
           solving problems through software development. During my university
           years, I discovered the incredible potential that this field has to
           enhance people's daily lives.

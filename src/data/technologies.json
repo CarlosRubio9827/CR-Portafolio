@@ -1,0 +1,44 @@
+{
+  "technologies": [
+    {
+      "src": "https://i.ibb.co/kKw8wC6/Quality-Assurance-1-2048x944.png",
+      "alt": "Quality Assurance"
+    },
+    {
+      "src": "https://i.ibb.co/NnRmsJC/HTML5-logo-and-wordmark-svg.png",
+      "alt": "HTML5 Logo"
+    },
+    {
+      "src": "https://i.ibb.co/3d8FTZJ/CSS3-logo-and-wordmark-svg.png",
+      "alt": "CSS3 Logo"
+    },
+    {
+      "src": "https://i.ibb.co/FBNCpLP/800px-Sass-Logo-Color-svg.png",
+      "alt": "Sass Logo"
+    },
+    {
+      "src": "https://i.ibb.co/g6XP5c2/Java-Script-logo.png",
+      "alt": "JavaScript Logo"
+    },
+    {
+      "src": "https://i.ibb.co/3Ryc9N7/1631110818-logo-react-js.png",
+      "alt": "React.js Logo"
+    },
+    {
+      "src": "https://i.ibb.co/9gRwTph/1200px-Node-js-logo-svg.png",
+      "alt": "Node.js Logo"
+    },
+    {
+      "src": "https://i.ibb.co/TYMspvH/git.png",
+      "alt": "Git Logo"
+    },
+    {
+      "src": "https://i.ibb.co/QMwd8h0/kisspng-microsoft-sql.jpg",
+      "alt": "Microsoft SQL"
+    },
+    {
+      "src": "https://i.ibb.co/syr9tPS/cypress-logo-circle-dark.png",
+      "alt": "Cypress Logo"
+    }
+  ]
+}

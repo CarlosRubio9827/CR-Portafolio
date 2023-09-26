@@ -43,9 +43,9 @@ const Experience = () => {
           ))}
         </div>
         <div className="experience-content-desc">
-          {experience.map((project, index) => (
+          {experience.map((job, index) => (
             <DescriptionJobExp
-              info={project}
+              info={job}
               show={activeIndex === index}
               key={index}
             />

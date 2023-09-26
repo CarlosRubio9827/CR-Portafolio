@@ -5,7 +5,6 @@
   display: none;
   gap: 10px;
   transition: 1s;
-
   &.x {
     display: flex;
     transition: 1s;
@@ -19,14 +18,14 @@
     &-dec {
       color: #fff;
       font-weight: 700;
-      font-size: 2rem;
+      font-size: 1.6rem;
       margin-right: 10px;
       width: 50%;
       white-space: pre-wrap;
     }
     &-img {
       height: 50px;
-    //   width: 50px;
+      //   width: 50px;
       margin: 0 auto;
     }
   }
@@ -36,15 +35,27 @@
     color: #768e81;
     margin-bottom: 10px;
   }
-
+  &-info {
+    color: #fff;
+    font-size: 1.2rem;
+    text-wrap: balance;
+    line-height: 15px;
+    font-weight: 400;
+  }
+  & h4 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
   &-resp {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 10px;
+
     &-li {
       position: relative;
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       color: #fff;
       font-weight: 300;
       padding-left: 20px;
@@ -54,6 +65,68 @@
         left: 0px;
         top: 0px;
         color: var(--green);
+      }
+    }
+  }
+  &-tool {
+    color: #fff;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+
+  &-tools {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    &-li {
+      position: relative;
+      font-size: 1rem;
+
+      color: #ffffff76;
+      font-weight: 300;
+      // padding-left: 10px;
+      &::after {
+        content: "•";
+        position: absolute;
+        left: -8px;
+        top: 0px;
+        color: var(--green);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .descriptionJob {
+    &-pos {
+      &-dec {
+        font-size: 2.4rem;
+      }
+    }
+    &-date {
+      font-size: 2rem;
+    }
+    &-info {
+      font-weight: 300;
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+    }
+    & h4 {
+      font-size: 1.8rem;
+    }
+    &-resp {
+      &-li {
+        font-size: 1.8rem;
+      }
+    }
+    &-tool {
+      font-size: 1.8rem;
+    }
+    &-tools {
+      &-li {
+        font-size: 1.6rem;
       }
     }
   }

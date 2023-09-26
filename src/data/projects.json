@@ -2,6 +2,15 @@
   "projects": [
     {
       "id": 1,
+      "name": "Asocombia",
+      "description": "I successfully executed a project for Asocombia, a nonprofit association dedicated to promoting sustainable agriculture and offering fresh, highquality products. The objective of this project was to create a dynamic landing page with a primary focus on encouraging users to request more information.",
+      "gitHub": "https://github.com/CarlosRubio9827/asocombia-flask",
+      "livePage": "https://asocombia.com",
+      "technologies": ["Html", "sass/scss", "Node JS", "expressjs"],
+      "imgMobile": "https://i.ibb.co/2d01dmk/restcontry.png"
+    },
+    {
+      "id": 2,
       "name": "REST-Countries-API",
       "description": "I have built an application that displays countries from an API ('https://restcountries.com/'), allows searching and filtering by region, and provides detailed information about each country. Additionally, users can customize the app's appearance by toggling between light and dark modes.",
       "gitHub": "https://github.com/CarlosRubio9827/REST-Countries-API-with-color-theme-switcher",
@@ -14,46 +23,46 @@
         "API",
         "fetch"
       ],
-      "imgMobile":"https://i.ibb.co/2d01dmk/restcontry.png"
+      "imgMobile": "https://i.ibb.co/2d01dmk/restcontry.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "GitHub DevFinder",
       "description": "I used the GitHub users API ('https://api.github.com/users/') to display profiles and relevant data in this project. Users could search for profiles, view information, and interact with the app. The design was responsive, and there was an option to switch between light and dark themes.",
       "gitHub": "https://github.com/CarlosRubio9827/frontend-mentor-18",
       "livePage": "https://carlosrubio9827.github.io/frontend-mentor-18/",
       "technologies": ["Html", "sass/scss", "React Js", "API", "fetch"],
-      "imgMobile":"https://i.ibb.co/NVDFW3k/github.png"
+      "imgMobile": "https://i.ibb.co/NVDFW3k/github.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "E-commerce product page",
       "description": "I have developed a website with an enhanced user experience. It features responsive design, hover states for interactive elements, a lightbox image gallery, thumbnail image selection, and a cart functionality for adding and removing items.",
       "gitHub": "https://github.com/CarlosRubio9827/frontend-mentor-17",
       "livePage": "https://carlosrubio9827.github.io/frontend-mentor-17/",
       "technologies": ["Html", "sass/scss", "React Js"],
-      "imgMobile":"https://i.ibb.co/sFHxMLk/shoes.png"
+      "imgMobile": "https://i.ibb.co/sFHxMLk/shoes.png"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Blogr landing page",
       "description": "I have developed a website that automatically adjusts its layout to provide the optimal viewing experience based on the user's device screen size. Additionally, all interactive elements on the page showcase hover states, enhancing user engagement and interactivity.",
       "gitHub": "https://github.com/CarlosRubio9827/frontend-mentor-16",
       "livePage": "https://carlosrubio9827.github.io/frontend-mentor-16/",
       "technologies": ["Html", "css", "Js", "Responsive"],
-      "imgMobile":"https://i.ibb.co/TTpBBbm/landingpage.png"
+      "imgMobile": "https://i.ibb.co/TTpBBbm/landingpage.png"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Tip calculator app",
       "description": "I have built an application that automatically adjusts its layout to adapt to the device's screen size, providing an optimal viewing experience. Additionally, the application includes a feature to calculate the correct tip and total cost of the bill per person, making it convenient to split expenses accurately.",
       "gitHub": "https://github.com/CarlosRubio9827/frontend-mentor-15",
       "livePage": "https://carlosrubio9827.github.io/frontend-mentor-15/",
       "technologies": ["Html", "css", "Js", "Responsive"],
-      "imgMobile":"https://i.ibb.co/2P97hj8/splitter.png"
+      "imgMobile": "https://i.ibb.co/2P97hj8/splitter.png"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Calculator app",
       "description": "I have developed an application that allows users to perform various mathematical operations such as addition, subtraction, multiplication, and division. Additionally, users can customize the color theme of the application based on their personal preference.",
       "gitHub": "https://github.com/CarlosRubio9827/frontend-mentor-5",

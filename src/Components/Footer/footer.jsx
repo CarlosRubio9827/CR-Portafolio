@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.scss";
 import { Link } from "react-router-dom";
 import { BsTwitter } from "react-icons/bs";
+// import { FaXTwitter } from "react-icons/fa6";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
@@ -23,11 +24,13 @@ const Footer = () => {
   };
   return (
     <section id="contact">
+     <h2 className="contact-title">
+        04.<span>Contact</span>
+      </h2>
       <div className="contact-me">
         <h2 className="contact-me-message">Send me a message!</h2>
         <p className="contact-me-desc">
-          Have a question or proposal, or simply want to say hello? Feel free to
-          reach out!
+          Have a question or proposal, or simply want to say hello? Feel free to reach out!
         </p>
         <div className="contact-me-container">
           <Link
@@ -53,6 +56,7 @@ const Footer = () => {
                 openNewTab(links.twitter);
               }}
             >
+            {/* <FaXTwitter className="footer-ul-li-a-img"/> */}
               <BsTwitter className="footer-ul-li-a-img" />
             </Link>
           </li>
